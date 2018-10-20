@@ -7,9 +7,9 @@ def index():
     return "Flask App!"
  
 @app.route("/templates")
-def hello(yogesh):
+def hello():
     return render_template(
-        'Html.html',name=yogesh)
+        'Html.html')
 if __name__ == "__main__":
     app.run()
 
