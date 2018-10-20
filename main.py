@@ -6,8 +6,8 @@ app = Flask(__name__)
 def index():
     return "Flask App!"
  
-@app.route("/templates",methods=['GET'])
-def hello(yogesh):
+@app.route("/templates")
+def hello():
     return "hi"
  
 if __name__ == "__main__":
