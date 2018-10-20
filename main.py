@@ -6,10 +6,9 @@ app = Flask(__name__)
 def index():
     return "Flask App!"
  
-@app.route("/templates/<string:yogesh>/",methods=['GET'])
+@app.route("/templates",methods=['GET'])
 def hello(yogesh):
-    return render_template(
-        'Html.html',name=yogesh)
+    return "hi"
  
 if __name__ == "__main__":
     app.run()
