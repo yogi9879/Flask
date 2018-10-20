@@ -6,7 +6,7 @@ app = Flask(__name__)
 def index():
     return "Flask App!"
  
-@app.route("/templates/<string:yogesh>/")
+@app.route("/templates/<string:yogesh>/",methods=['GET'])
 def hello(yogesh):
     return render_template(
         'Html.html',name=yogesh)
