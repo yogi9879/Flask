@@ -1,7 +1,7 @@
 from flask import Flask , render_template, request#,make_response
 #from werkzeug import secure_filename
 import pandas as pd
-import MLfun
+#import MLfun
 app = Flask(__name__)
 
 @app.route('/')
