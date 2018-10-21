@@ -53,7 +53,7 @@ coverage.xml
 *.log
 local_settings.py
 
-# Flssask stuff:
+# Flask stuff:
 instance/
 .webassets-cache
 
