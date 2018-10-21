@@ -18,3 +18,6 @@ def upload_file1():
       results=MLfun.Model(dataset)
       #f.save(secure_filename(f.filename))
       return 'file uploaded successfully' + str(results)
+
+if __name__ == '__main__':
+   app.run(debug=True)
