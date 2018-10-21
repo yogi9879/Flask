@@ -5,7 +5,7 @@ import pandas as pd
 import MLfun
 app = Flask(__name__)
 
-@app.route('/upload')
+@app.route('/')
 def upload_file():
    return render_template('upload.html')
 	
