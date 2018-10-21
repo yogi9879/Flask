@@ -1,6 +1,6 @@
 from flask import Flask #, render_template, request#,make_response
 #from werkzeug import secure_filename
-import pandas as pd
+#import pandas as pd
 #import MLfun
 app = Flask(__name__)
 
