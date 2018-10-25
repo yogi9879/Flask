@@ -1,12 +1,13 @@
 from flask import Flask , render_template#, request#,make_response
 #from werkzeug import secure_filename
 #import pandas as pd
+import numpy as np
 #import MLfun
 app = Flask(__name__)
 
 @app.route('/')
 def upload_file():
-   return "Hello"
+   return "Hello yoyo"
 '''
 	
 @app.route('/uploader', methods = ['GET', 'POST'])
