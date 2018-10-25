@@ -3,7 +3,7 @@ from flask import Flask , render_template#, request#,make_response
 #import pandas as pd
 import numpy as np
 #from sklearn import datasets
-#import MLfun
+import MLfun
 import scipy
 app = Flask(__name__)
 
