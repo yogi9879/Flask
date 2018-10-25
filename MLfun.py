@@ -1,5 +1,4 @@
 import numpy as np
-''''
 
 
 
@@ -7,12 +6,11 @@ import numpy as np
 
 
 
-import pandas as pd
-import matplotlib.pyplot as plt
-import numpy as np
 
-def Model(dataset):
 
+
+def Model():
+	import scipy'''
 	del dataset["Alley"]
 	del dataset["PoolQC"]
 	del dataset["Fence"]
