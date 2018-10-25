@@ -1,10 +1,10 @@
 from flask import Flask , render_template#, request#,make_response
 #from werkzeug import secure_filename
 #import pandas as pd
-import numpy as np
+#import numpy as np
 #from sklearn import datasets
 #import MLfun.Model
-import scipy
+#import scipy
 app = Flask(__name__)
 
 @app.route('/')
