@@ -10,7 +10,8 @@ import numpy as np
 
 
 def Model():
-	import scipy'''
+	import scipy
+	'''
 	del dataset["Alley"]
 	del dataset["PoolQC"]
 	del dataset["Fence"]
