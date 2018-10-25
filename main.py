@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def upload_file():
-   return "Hello yogesh u gotcha"
+   return "Hello yogesh u gotcha yuhu"
 '''
 	
 @app.route('/uploader', methods = ['GET', 'POST'])
